@@ -18,10 +18,10 @@ class Manejador():
 
 
 figuras = []
+txt = []
+for i in range(1000000):
+    f= Manejador.get_figura(random.randint(1,3 ))
+    figuras.append
+    txt.append(f'La figura {f} tiene un área de {f.area()} y un perímetro de {f.perimetro()}')
 
-for i in range(100):
-    figuras.append(Manejador.get_figura(random.randint(1,3 )))
-
-
-for f in figuras:
-    print(f'La figura {f} tiene un área de {f.area()} y un perímetro de {f.perimetro()}')
+print('\n'.join(txt))
