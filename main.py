@@ -21,7 +21,7 @@ figuras = []
 txt = []
 for i in range(1000000):
     f= Manejador.get_figura(random.randint(1,3 ))
-    figuras.append
+    figuras.append(f)
     txt.append(f'La figura {f} tiene un área de {f.area()} y un perímetro de {f.perimetro()}')
 
 print('\n'.join(txt))
